@@ -1,0 +1,72 @@
+/* DOCUMENTS CSS */
+a {
+	text-decoration: none;
+}
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background-color: MediumVioletRed;
+	font-family: Optima;
+
+}
+a {
+	text-decoration: none;
+}
+header {
+	background-color: mistyrose;
+	height: 100px;
+	padding-top: 25px;
+	color: MediumVioletRed;
+	text-align: center;
+}
+main {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	flex-wrap: wrap;
+	align-content: center;
+}
+.box {width: 300px;
+	height: 500px;
+	background-color: mistyrose;
+	border-radius: 10px;
+	padding: 20px;
+	color: MediumVioletRed;
+	text-align: center;
+	margin: 10px;
+	
+}
+.box:hover{
+	box-shadow: 10px 10px 10px mistyrose ;	
+	background-color: #A32C6A;
+	color: mistyrose;
+
+}
+.box h2{margin: 0 0 10px 0;
+		padding: 0;
+		font-family: Optima;
+		
+		}
+.box figure {width: 200px;
+			height: 200px;
+			margin: 0;
+			padding: 0;
+			text-align: center;
+			margin: 0;
+
+}
+
+.box p {
+
+}
+footer {
+	background-color: white;
+	height: 70px;
+	padding-top: 10px;
+	color: MediumVioletRed;
+	text-align: center;
+}
